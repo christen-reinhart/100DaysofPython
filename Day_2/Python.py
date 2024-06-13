@@ -7,10 +7,11 @@
 # Purpose In Python, Print message  
 
 #Begin
-# Float = 3.14
+
+# Float = 3.14 (numbers)
 # Boolean True or False
 
-#Integer
+#Integer (characters)
 print("123" + "456")
 
 #End
