@@ -3,5 +3,5 @@
 # Script name Assignment 100 Days of  Python
 # Author Name Christen Reinhart
 # Date of Latest Revision 06/13/2024
-# Sources Auditorium
-# Purpose In Python, Calculate student height using Loops
+# Sources Auditorium/ Udemy
+# Purpose In Python, perform range using Loops
