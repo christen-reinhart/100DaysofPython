@@ -8,7 +8,7 @@
 
 #Begin
 
-num1 = int(input(2))
-num2 = int(input(5))
+num1 = int(input())
+num2 = int(input())
 
 print(num1 * num2)
