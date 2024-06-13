@@ -22,8 +22,11 @@ nr_numbers = int(input(f"How many number would you like?\n"))
 password = ""
 # nr_letter = 4
 for char in range(1, nr_letters + 1):
-    # 1 - 4
     random_char = random.choice(letters)
+for char in range(1, nr_symbols + 1):
+    random_char = random.choice(symbols)
+for char in range(1, nr_numbers + 1):
+    random_char = random.choice(numbers)
     password += random_char
     print(password)
 
