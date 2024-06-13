@@ -17,5 +17,5 @@ for number in range(1, target + 1,):
         print("Fizz")
     elif number % 5 == 0:
         print("Buzz")
-    else
+    else:
         print(number)
