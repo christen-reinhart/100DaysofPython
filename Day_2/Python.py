@@ -9,7 +9,7 @@
 #Begin
 
 # Float = 3.14 (numbers)
-# Boolean True or False
+# Boolean True or False no "  "
 
 #Integer (characters)
 print("123" + "456")
