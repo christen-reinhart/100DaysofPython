@@ -7,8 +7,10 @@
 # Purpose In Python, Print message  
 
 #Begin
+# Float = 3.14
+# Boolean True or False
 
-#print first message
-print("Hello" + "World!")
+#Integer
+print("123" + "456")
 
 #End
