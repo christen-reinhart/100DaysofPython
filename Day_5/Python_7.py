@@ -20,7 +20,7 @@ nr_numbers = int(input(f"How many number would you like?\n"))
 
 # Eazy Level
 password = ""
-# nr_letter = 4
+# nr_letter 
 for char in range(1, nr_letters + 1):
     password += random.choice(letters)
 
