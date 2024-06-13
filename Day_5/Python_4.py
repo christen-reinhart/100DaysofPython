@@ -5,3 +5,7 @@
 # Date of Latest Revision 06/13/2024
 # Sources Auditorium/ Udemy
 # Purpose In Python, perform range using Loops
+
+# For Loop with Range
+for number in range(1, 11):
+    print(number)
