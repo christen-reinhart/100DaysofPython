@@ -1,17 +1,14 @@
 #!/user/bin/env python3
 
-# Script name Assignment 1-1
+# Script name Assignment 100 Days of  Python
 # Author Name Christen Reinhart
-# Date of Latest Revision 05/15/2024
-# Sources https://replit.com/@christenreinhar/COP1000Assignment-1-1#main.py 
+# Date of Latest Revision 06/12/2024
+# Sources https://chatgpt.com/share/a6a7d219-97e7-4cd7-9511-274cf26dcf1b
 # Purpose In Python, Print message  
 
 #Begin
 
 #print first message
-print("I'm learning how to program in Python.")
-
-#print second message
-print("Thats awesome!")
+print("Hello World!")
 
 #End
