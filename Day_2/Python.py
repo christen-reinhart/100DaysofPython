@@ -12,7 +12,7 @@
 # Boolean True or False no "  "
 
 #Integer (characters)
-two_digit_number = input(39)
+two_digit_number = input()
 first_digit = int(two_digit_number[0])
 second_digit = int(two_digit_number[1])
 
