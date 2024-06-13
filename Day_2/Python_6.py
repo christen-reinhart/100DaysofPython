@@ -19,4 +19,5 @@ tip = int(input("How much would you like to give? 10, 12, or 15?"))
 people = int(input("How many people split the bill?"))
 
 bill_with_tip = tip / 100 * bill + bill
+
 print(bill_with_tip)
