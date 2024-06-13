@@ -8,5 +8,5 @@
 
 #Begin
 
-numOfLetters = len("Angela")
+numOfLetters = len("Christen Reinhart")
 print(numOfLetters)
