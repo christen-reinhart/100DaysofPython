@@ -5,3 +5,7 @@
 # Date of Latest Revision 06/13/2024
 # Sources Auditorium
 # Purpose In Python, Loops
+
+fruits = ["Apple", "Peach", "Pear"]
+for fruits in fruits:
+    print(fruits)
