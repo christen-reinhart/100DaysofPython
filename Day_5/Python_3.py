@@ -6,6 +6,8 @@
 # Sources Auditorium
 # Purpose In Python, Calculate student height using Loops
 
+student_heights = [160, 172, 168, 174, 169]  # Example data, replace with actual input if needed
+
 total_height = 0 
 for height in student_heights:
     total_height += height
