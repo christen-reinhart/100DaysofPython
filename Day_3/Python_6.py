@@ -9,9 +9,9 @@
 # Multiple If Statements
 
 print("Welcome to Python Pizza")
-size = int(input('What is your size pizza? S, M, L'))
-add_pepperoni = int(input('Do you want pepperoni? Y or N'))
-add_cheese = int(input('Do you want cheese? Y or N'))
+size = int(input('What is your size pizza?'))
+add_pepperoni = int(input('Do you want pepperoni?'))
+add_cheese = int(input('Do you want cheese?'))
 
 bill = 0
 if size == "S":
