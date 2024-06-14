@@ -4,15 +4,15 @@
 # Author Name Christen Reinhart
 # Date of Latest Revision 06/14/2024
 # Sources Auditorium/ Udemy
-# Purpose In Python, if, else, condition
+# Purpose In Python, if, else, condition with modulo
 
-# check height conditional
+# check even number with modulo
 
-print("Welcome to the rollercoaster")
+print("Time to see if you number is even or odd")
 
-height = int(input("What is your height in inches?"))
+num = int(input("What is your height in inches?"))
 
-if height == 48:
-    print("You can ride the rollercoaster!")
+if num % 2 == 0:
+    print("This number is even")
 else:
-    print("Sorry, you will have to wait till you are taller")
+    print("Sorry, your number is not even")
