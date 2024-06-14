@@ -10,7 +10,7 @@
 
 print("Time to see if you number is even or odd")
 
-number = int(input("What is your height in inches?"))
+number = int(input("What is your number?"))
 
 if number % 2 == 0:
     print("This number is even")
