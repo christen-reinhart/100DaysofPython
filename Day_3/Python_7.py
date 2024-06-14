@@ -4,22 +4,24 @@
 # Author Name Christen Reinhart
 # Date of Latest Revision 06/14/2024
 # Sources Auditorium/ Udemy
-# Purpose In Python, if, else, condition
+# Purpose In Python, if, else, and, or, not
 
-# check BMI conditional
+# Logical Operators
 
 print("Welcome to the rollercoaster")
 
-height = float(input("What is your height in inches?"))
-weight = int(input("what is your weight?"))
-bmi = weight / (height * height)
-if bmi > 18.5:
-    print(f"Your bmi is {bmi}, you are under weight.")
-elif bmi < 25:
-    print(f"Your bmi is {bmi}, you are normal weight.")
-elif bmi < 30:
-    print(f"Your bmi is {bmi}, you are over weight.")
-elif bmi < 35:
-    print(f"Your bmi is {bmi}, you are obese.")
+height = int(input("What is your height in inches?"))
+
+if height >= 48:
+    print("You can ride the rollercoaster!")
+    age = int(input("what is your age?"))
+    if age < 12:
+        print("Please pay $5.")
+    elif age <= 18:
+        print("Please pay $7.")
+    elif age >= 45 and age <= 55:
+        print("Everything is going to be ok. You get to ride for free.")
+    else:
+        print("Please pay $12.")   
 else:
-    print(f"Your bmi is {bmi}, you are clinically obese.")
+    print("Sorry, you will have to wait till you are taller")     
