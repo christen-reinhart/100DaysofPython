@@ -6,13 +6,21 @@
 # Sources Auditorium/ Udemy
 # Purpose In Python, if, else, condition
 
-# check height conditional
+# check leap year conditional
 
 print("Welcome to the rollercoaster")
 
-height = int(input("What is your height in inches?"))
+height = float(input("What is your height in inches?"))
+year = int(input("what is the year?"))
 
-if height > 48:
-    print("You can ride the rollercoaster!")
+if year % 4 == 0: 
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print("Leap Year")
+        else:
+            print("Not leap year")
+    else: 
+        print("Leap Year")
 else:
-    print("Sorry, you will have to wait till you are taller")
+    print("Not a Leap Year")
+    
