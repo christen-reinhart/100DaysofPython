@@ -8,9 +8,8 @@
 
 # check leap year conditional
 
-print("Welcome to the rollercoaster")
+print("Time to check for a leap year")
 
-height = float(input("What is your height in inches?"))
 year = int(input("what is the year?"))
 
 if year % 4 == 0: 
