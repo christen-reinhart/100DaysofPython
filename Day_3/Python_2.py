@@ -4,15 +4,15 @@
 # Author Name Christen Reinhart
 # Date of Latest Revision 06/14/2024
 # Sources Auditorium/ Udemy
-# Purpose In Python, if, else, condition with modulo
+# Purpose In Python, if, else, condition with modulo %
 
 # check even number with modulo
 
 print("Time to see if you number is even or odd")
 
-num = int(input("What is your height in inches?"))
+number = int(input("What is your height in inches?"))
 
-if num % 2 == 0:
+if number % 2 == 0:
     print("This number is even")
 else:
     print("Sorry, your number is not even")
