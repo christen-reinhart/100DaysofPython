@@ -4,9 +4,9 @@
 # Author Name Christen Reinhart
 # Date of Latest Revision 06/14/2024
 # Sources Auditorium/ Udemy
-# Purpose In Python, if, else, condition
+# Purpose In Python, if, else, elif
 
-# check height conditional
+# check height and elif age conditional
 
 print("Welcome to the rollercoaster")
 
