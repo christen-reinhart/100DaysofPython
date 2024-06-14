@@ -2,32 +2,17 @@
 
 # Script name Assignment 100 Days of  Python
 # Author Name Christen Reinhart
-# Date of Latest Revision 06/13/2024
+# Date of Latest Revision 06/14/2024
 # Sources Auditorium/ Udemy
 # Purpose In Python, if, else, condition
 
-# Password Generator Project
-import random
-letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
-symbols = ['!', '@', '#', '$', '%', '&', '*', '(', ')']
+# check height conditional
 
+print("Welcome to the rollercoaster")
 
-print("Welcome to the Password Gengerator")
-nr_letters = int(input("How many letter would you like in password?\n"))
-nr_symbols = int(input(f"How many symbols would you like?\n"))
-nr_numbers = int(input(f"How many number would you like?\n"))
+height = int(input("What is your height in inches?"))
 
-# Eazy Level
-password = ""
-# nr_letter 
-for char in range(1, nr_letters + 1):
-    password += random.choice(letters)
-
-for char in range(1, nr_symbols + 1):
-    password += random.choice(symbols)
-
-for char in range(1, nr_numbers + 1):
-    random_char = random.choice(numbers)
-    password += random_char
-    print(password)
+if height > 48:
+    print("You can ride the rollercoaster!")
+else:
+    print("Sorry, you will have to wait till you are taller")
