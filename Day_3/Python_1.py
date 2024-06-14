@@ -4,7 +4,7 @@
 # Author Name Christen Reinhart
 # Date of Latest Revision 06/13/2024
 # Sources Auditorium/ Udemy
-# Purpose In Python, Password Generator
+# Purpose In Python, if, else, condition
 
 # Password Generator Project
 import random
