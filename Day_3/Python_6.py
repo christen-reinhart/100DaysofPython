@@ -6,13 +6,28 @@
 # Sources Auditorium/ Udemy
 # Purpose In Python, if, else, condition
 
-# check height conditional
+# Multiple If Statements
 
-print("Welcome to the rollercoaster")
+print("Welcome to Python Pizza")
+size = int(input("What is your size pizza? S, M, L"))
+add_pepperoni = int(input("Do you want pepperoni? Y or N"))
+add_cheese = int(input("Do you want cheese? Y or N"))
 
-height = int(input("What is your height in inches?"))
-
-if height > 48:
-    print("You can ride the rollercoaster!")
+bill = 0
+if size == "S":
+  bill += 15
+elif size == "M":
+  bill += 20
 else:
-    print("Sorry, you will have to wait till you are taller")
+  bill += 25
+
+if add_pepperoni == "Y":
+  if size == "S":
+    bill += 2
+  else:
+    bill += 3
+
+if extra_cheese == "Y":
+  bill += 1
+
+print(f"Your final bill is: ${bill}."
