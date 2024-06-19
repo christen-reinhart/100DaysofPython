@@ -12,6 +12,6 @@
 print("Hello!\nHello world")
 print("Hello Chris" + "Hello John")
 print (len(input("What is your name?")))
-name = input()
+name = input("What kind of dog do you have?")
 print(name)
 #End
