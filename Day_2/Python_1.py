@@ -8,7 +8,7 @@
 
 #Begin
 
-print("Hello" + "World!")
+
 
 name1 = (int(input("What is your city?")))
 name2 = (int(input("Who is your boss?")))
