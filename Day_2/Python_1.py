@@ -15,6 +15,8 @@ name2 = (input("Who is your boss?"))
 name3 = (input("Who is your firend?"))
 print(name1, name2, name3)
 
+print(123 + 456)
+
 print("Hello"[0])
 print("Hello"[3])
 
