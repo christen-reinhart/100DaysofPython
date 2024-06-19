@@ -10,9 +10,9 @@
 
 print("Hello" + "World!")
 
-name1 = (var(input("What is your city?")))
-name2 = (var(input("Who is your boss?")))
-name3 = (var(input("Who is your firend?")))
+name1 = (int(input("What is your city?")))
+name2 = (int(input("Who is your boss?")))
+name3 = (int(input("Who is your firend?")))
 print(name1, name2, name3)
 
 
