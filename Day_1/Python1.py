@@ -9,6 +9,6 @@
 #Begin
 
 #print first message
-print("Hello!" + input("What is your Name?"))
+print("Hello!"\n "Hello world")
 
 #End
