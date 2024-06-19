@@ -11,6 +11,6 @@
 #print first message
 print("Hello!\nHello world")
 print("Hello Chris" + "Hello John")
-print len(input())
+print (len(input()))
 
 #End
