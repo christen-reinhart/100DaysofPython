@@ -7,7 +7,7 @@
 # Purpose In Python, Calculate Bill
 
 # Welcome to bill calculator
-print("Welcome to the trips calculator")
+print("Welcome to the tips calculator")
 
 #Each person should pay
 bill = float(input("What was the total bill?$"))
