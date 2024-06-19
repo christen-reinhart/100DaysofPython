@@ -9,6 +9,6 @@
 #Begin
 
 #print first message
-print("Hello!"\n "Hello world")
+print("Hello!\nHello world")
 
 #End
