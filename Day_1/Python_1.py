@@ -12,5 +12,6 @@
 print("Hello!\nHello world")
 print("Hello Chris" + "Hello John")
 print (len(input("What is your name?")))
-
+name = input()
+print("name")
 #End
