@@ -20,5 +20,5 @@ print(123 + 456)
 print(123 * 456)
 print("Hello"[0])
 print("Hello"[3])
-
+print(70 + float("100.6"))
 #End
