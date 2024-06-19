@@ -10,9 +10,9 @@
 
 
 
-name1 = (int(input("What is your city?")))
-name2 = (int(input("Who is your boss?")))
-name3 = (int(input("Who is your firend?")))
+name1 = (input("What is your city?"))
+name2 = (input("Who is your boss?"))
+name3 = (input("Who is your firend?"))
 print(name1, name2, name3)
 
 
