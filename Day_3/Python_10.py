@@ -29,7 +29,7 @@ second_digit = l + o + v + e
 
 score = int(str(first_digit) + str(second_digit))
 if (score < 10) or (score > 90):
-    print("You go thgether just fine.")
+    print("You go together just fine.")
 elif (score >= 40) and  (score <= 50):
     print(f"Your score is {score}, you are good.")
 else:
