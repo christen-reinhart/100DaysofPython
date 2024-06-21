@@ -7,6 +7,30 @@
 # Purpose In Python, if, else, and, or, not
 
 # Logical Operators
-
+print("The love calculator is calculating your score")
 name1 = (input("What is your name?"))
-name1 = (input("What is their name?"))
+name2 = (input("What is their name?"))
+
+combined_names = name1 + name2 
+lower_names = combined_names.lower()
+
+
+t = lower_names.count("t")
+r = lower_names.count("r")
+u = lower_names.count("u")
+e = lower_names.count("e")
+first_digit = t + r + u + e 
+
+t = lower_names.count("l")
+t = lower_names.count("o")
+t = lower_names.count("v")
+t = lower_names.count("e")
+second_digit = l + o + v + e
+
+score = int(str(first_digit) + str(second_digit))
+if (score < 10) or (score > 90):
+    print("You go thgether just fine.")
+elif (score >= 40) and  (score <= 50):
+    print(f"Your score is {score}, you are good.")
+else:
+    print("Your score is {score}.")
