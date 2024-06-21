@@ -33,4 +33,4 @@ if (score < 10) or (score > 90):
 elif (score >= 40) and  (score <= 50):
     print(f"Your score is {score}, you are good.")
 else:
-    print("Your score is {score}.")
+    print(f"Your score is {score}.")
